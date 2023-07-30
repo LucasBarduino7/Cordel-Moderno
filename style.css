@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Passion+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Sriracha&display=swap');
+
+html body{
+   
+    margin: 0px;
+}
+h1{
+    color: white;
+    font-size:max(6em,7vw);
+    font-size:min(6em, 7vw);
+    font-family:'Passion One';
+    font-weight: normal;
+    padding-top: 20px;
+    text-align: center;
+    margin-top: -10px;
+    margin-bottom: -2px;
+    padding-top: 60px;
+
+  
+}
+    
+header{
+    background-color: #FFCB0F;
+    
+    
+}
+header>p{
+color: white;
+text-align: center;
+padding-bottom: 50px;
+padding-top: 10px;
+margin-top: 5px;
+font-size: 1.3em;
+}
+header a{
+    color:white;
+    text-decoration: none;
+    font-weight: bolder;
+}
+header a:hover{
+    color: bisque;
+    text-decoration:underline ;
+}
+main{
+   font-family: 'Sriracha';
+}
+p.texto01{
+    padding: 20px;
+}
+
+section#imagem{
+    background-image: url(imagens/pexels-jennifer-moore-963060.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+section.texto > p {
+    background-color: rgba(65, 60, 60, 0.541);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    display:inline-block;
+    padding: 20px;
+
+}
+section#imagem1{
+    background-image: url(imagens/pexels-kate-graur-5425686.jpg);
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+
+}
+footer>p{
+    font-family: sans-serif;
+    font-size: 1.2em;
+    color: white;
+    background-color: #FFCB0F;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: -10px;
+    font-size: min(12px,1.3vw);
+        font-size: max(12px,1.3vw);
+}
+    footer a{
+            color:white;
+            text-decoration: none;
+            font-weight: bolder;
+    }
+    footer a:hover{
+        color: bisque;
+        text-decoration:underline ;
+    }
+    p.texto01{
+        font-size: min(3em,4vw);
+        font-size: max(1em,3vw);
+    }
